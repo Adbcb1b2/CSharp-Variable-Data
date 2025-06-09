@@ -13,6 +13,12 @@ namespace VariableData
             Console.WriteLine("Hello World");
 
             Example1.SayHello(); // Will execute the static method in the Example1 file
+
+            // Demonstrating the minimum and maximum values of each datatype
+            MinMaxValues.MinMaxValuesExample();
+
+            // Demonstrating value and reference type variables
+            ValueAndReferenceTypes.ValueAndReferenceTypesExample();
         }
     }
 }
