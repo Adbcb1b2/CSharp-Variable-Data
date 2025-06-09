@@ -1,0 +1,15 @@
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\bin\Debug\net8.0\VariableData.exe
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\bin\Debug\net8.0\VariableData.deps.json
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\bin\Debug\net8.0\VariableData.runtimeconfig.json
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\bin\Debug\net8.0\VariableData.dll
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\bin\Debug\net8.0\VariableData.pdb
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.AssemblyInfoInputs.cache
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.AssemblyInfo.cs
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.csproj.CoreCompileInputs.cache
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.sourcelink.json
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.dll
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\refint\VariableData.dll
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.pdb
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\VariableData.genruntimeconfig.cache
+C:\Users\richa\OneDrive - University of Wolverhampton\Documents\University\Summer Learning\CSharpVariableData\VariableData\obj\Debug\net8.0\ref\VariableData.dll
