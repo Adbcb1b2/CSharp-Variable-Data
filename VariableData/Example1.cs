@@ -65,4 +65,52 @@ namespace VariableData
 
         }
     }
+
+    public class Casting
+    {
+        public static void CastingExample()
+        {
+
+            // Compiler can make safe conversions e.g. int to string
+            int first = 2;
+            string second = "4";
+
+            string result = first + second;
+            Console.WriteLine(result); // 24
+
+            // E.g. int to decimal
+            int myInt = 3;
+            Console.WriteLine($"int: {myInt}");
+
+            decimal myDecimal = myInt;
+            Console.WriteLine($"decimal: {myDecimal}");
+
+            // Casting
+            decimal myDecimal2 = 3.89m;
+            Console.WriteLine("My Decimal " + myDecimal2);
+
+            int myInt2 = (int)myDecimal2;
+            Console.WriteLine($"int: {myInt2}");
+
+            int value = (int)1.5m; // casting truncates
+            Console.WriteLine(value);
+
+            int value2 = Convert.ToInt32(1.5m); // converting rounds up
+            Console.WriteLine(value2);
+
+
+            // Trying to parse a value, returns an out value (result1) and whether it was true/fals
+            string value1 = "102";
+            int result1 = 0;
+            if (int.TryParse(value1, out result1))
+            {
+            Console.WriteLine($"Measurement: {result1}");
+            }
+            else
+            {
+            Console.WriteLine("Unable to report the measurement.");
+            }
+
+        }
+    }
 }

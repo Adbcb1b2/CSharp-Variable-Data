@@ -19,6 +19,8 @@ namespace VariableData
 
             // Demonstrating value and reference type variables
             ValueAndReferenceTypes.ValueAndReferenceTypesExample();
+
+            Casting.CastingExample();
         }
     }
 }
