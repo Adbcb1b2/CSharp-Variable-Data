@@ -233,4 +233,32 @@ namespace VariableData
         }
 
     }
+
+    class FormattingAlphaNumData
+    {
+        public static void Example1()
+        {
+            // string first = "First";
+            // string second = "Second";
+            // string result = string.Format("{0} {1}!", first, second); // Composite formatting, uses numbered placeholders
+            // Console.WriteLine(result);
+
+            string first = "Hello";
+            string second = "World";
+            Console.WriteLine("{1} {0}!", first, second);
+            Console.WriteLine("{0} {0} {0}!", first, second);
+
+            // Formatting currency
+            decimal price = 123.45m;
+            int discount = 50;
+            Console.WriteLine($"Price: {price:C} (Save {discount:C})");
+
+            // Making large numbers more readable:
+            decimal measurement = 123456.78912m;
+            Console.WriteLine($"Measurement: {measurement:N} units");
+
+
+
+        }
+    }
 }
