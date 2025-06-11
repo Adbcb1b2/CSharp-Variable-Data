@@ -26,6 +26,7 @@ namespace VariableData
             //ArrayHelperMethods.ArrayHelperExample2();
             //ArrayHelperMethods.ArrayHelperExample3();
             FormattingAlphaNumData.Example1();
+            FormattingAlphaNumData.Example2();
         }
     }
 }

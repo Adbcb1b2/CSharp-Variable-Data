@@ -257,7 +257,50 @@ namespace VariableData
             decimal measurement = 123456.78912m;
             Console.WriteLine($"Measurement: {measurement:N} units");
 
+        }
 
+        public static void Example2()
+        {
+            // Remove
+            string data = "12345John Smith          5000  3  ";
+            string updatedData = data.Remove(5, 20); // Remove(startIndex, count)
+            Console.WriteLine(updatedData); // Removes John Smith and the spaces
+
+            // Replace
+            string message = "This--is--ex-amp-le--da-ta";
+            message = message.Replace("--", " ");
+            message = message.Replace("-", "");
+            Console.WriteLine(message);
+
+            const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+            string quantity = "";
+            string output = "";
+
+            // Extract the quantity
+            const string openSpan = "<span>";
+            const string closeSpan = "</span>";
+
+            int quantityStart = input.IndexOf(openSpan) + openSpan.Length;
+            int quantityEnd = input.IndexOf(closeSpan);
+            int quanityLength = quantityEnd - quantityStart;
+            //Console.WriteLine($"Start Index: {quantityStart} End Index: {quantityEnd} Length: {quanityLength}");
+
+            // Retrieve the substring containing the quantity
+            quantity = input.Substring(quantityStart, quanityLength);
+            //Console.WriteLine(quantity);
+
+            // Remove the div tags
+            const string openDiv = "<div>";
+            const string closeDiv = "</div>";
+            output = input.Replace(openDiv, "");
+            output = output.Replace(closeDiv, "");
+
+            // Replace &trade with &reg
+            output = output.Replace("&trade", "&reg");
+
+            Console.WriteLine(quantity);
+            Console.WriteLine(output);
 
         }
     }
